@@ -1,13 +1,247 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(228, 243, 247);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+
+
+.profile-page {
+  margin: 0 auto;
+  max-width: 400px;
+  margin-top: 200px;
+  max-height: 400px;
+  border: 5px solid black;
+  padding: 20px 20px;
+  text-align: center;
+  color: blue;
+}
+
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+
+  
+  
+}
+
+.repo-btn {
+border: none;
+background-color: blueviolet;
+color: white;
+font-weight: bold;
+padding: 8px 5px;
+font-size: 13px;
+border-radius: 5px;
+cursor: pointer;
+
+}
+
+.repo-btn:hover {
+  background-color: rgb(80, 6, 63);
+}
+
+.boundary-btn {
+  border: none;
+  background-color: rgb(177, 140, 5);
+  color: white;
+  font-weight: bold;
+  padding: 8px 5px;
+  font-size: 13px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  }
+
+  .boundary-btn:hover {
+    background-color: rgb(80, 6, 63);
+  }
+
+  .error-btn {
+    border: none;
+    background-color: rgb(211, 59, 9);
+    color: white;
+    font-weight: bold;
+    padding: 8px 5px;
+    font-size: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    }
+
+    .error-btn:hover {
+      background-color: rgb(80, 6, 63);
+    }
+
+.profile-btn:hover {
+  background-color: rgb(80, 6, 63);
+}
+
+.main-container {
+  width:1200px;
+  max-width: 100%;
+  min-height: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+
+  
+}
+
+
+.repo-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  padding-left: 100px;
+  text-decoration: none;
+}
+
+.avatarImage {
+  border: 2px solid rgb(21, 20, 20);
+  border-radius: 4px;
+}
+
+.repo-col {
+  border: 2px solid green;
+  width: 63%;
+  border-radius: 7px;
+}
+
+
+.pagination {
+  text-decoration: none;
+  display: flex;
+  margin: 0 auto;
+  max-width: 200px;
+  list-style-type: none;
+
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: blue;
+  list-style-position: inside;
+  padding-right: 30px;
+  
+}
+
+
+
+a:hover {
+  text-decoration: none;
+  color:green;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
+h1 {
+  color: green;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+
+
+.page-button {
+  padding: 12px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 1px solid rgb(40, 40, 40);
+  
+}
+
+.page-button:hover {
+  background-color: green;
+  color: white;
+}
+
+.page-button:active {
+  background-color: red;
+}
+
+.error-page {
+  margin: 0 auto;
+  max-width: 400px;
+  margin-top: 200px;
+  max-height: 400px;
+  padding: 20px 20px;
+  text-align: center;
+
+}
+
+.home-btn {
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.home-btn:hover {
+  background-color: rgb(128, 77, 0);
+}
+
+.boundary-class-btn {
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.boundary-class-btn:hover {
+  background-color: rgb(128, 77, 0);
+}
+
+.back-btn {
+  display: flex;
+  margin: 0 auto;
+  padding: 10px 20px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.back-btn:hover {
+  background-color: rgb(128, 77, 0);
 }
