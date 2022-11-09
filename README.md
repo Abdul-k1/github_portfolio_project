@@ -8,7 +8,7 @@ Implement an API fetch of your GitHub portfolio, show a page with a list of all 
 
 This project is hosted on [Netlify] (https://Netlify.com)
 
-View Link Here (Github Portfolio Project) (https://tangerine-mousse-323bc9.netlify.app/).
+View Link Here [Github Portfolio Project] (https://tangerine-mousse-323bc9.netlify.app/).
 
 
 
